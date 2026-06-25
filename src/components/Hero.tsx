@@ -23,7 +23,7 @@ export default function Hero({ startAnimation = true }: { startAnimation?: boole
   };
 
   return (
-    <div className="w-full px-2 md:px-4  pt-4 pb-2 flex justify-center">
+    <div className="w-full px-2 md:px-4  pt-24 pb-2 flex justify-center">
       <div
         className="relative w-full max-w-[1800px]  md:h-[97vh] min-h-[90vh] bg-zinc-900 rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-2xl"
       >
@@ -80,7 +80,7 @@ export default function Hero({ startAnimation = true }: { startAnimation?: boole
             initial="hidden"
             animate={startAnimation ? "visible" : "hidden"}
           >
-            <motion.h1 variants={item} className="text-white text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.01] font-light tracking-tight flex flex-col overflow-hidden">
+            <motion.h1 variants={item} className="text-white text-[2.5rem] sm:text-5xl md:text-7xl lg:text-[5.5rem] leading-[1.01] font-light tracking-tight flex flex-col overflow-hidden">
               <span className="block">Experience the</span>
               <span className="block">true essence of</span>
               <span className="block">Thekkady</span>
