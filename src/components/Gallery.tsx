@@ -18,7 +18,7 @@ const duplicatedImages = [...galleryImages, ...galleryImages];
 
 export default function Gallery() {
   return (
-    <section className="w-full py-24 bg-white  md:mt-0 flex flex-col items-center font-jakarta overflow-hidden">
+    <section className="w-full py-24 bg-white -mt-24  md:mt-0 flex flex-col items-center font-jakarta overflow-hidden">
 
       {/* Top Heading Section */}
       <div className="flex flex-col items-center text-center px-6 mb-16 max-w-3xl mx-auto">

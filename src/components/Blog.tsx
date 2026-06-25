@@ -38,7 +38,7 @@ const blogPosts = [
 
 export default function Blog() {
   return (
-    <section className="w-full bg-white py-24 px-4 md:px-12 flex flex-col items-center font-jakarta">
+    <section className="w-full bg-white py-24 -mt-24 px-4 md:px-12 flex flex-col items-center font-jakarta">
       <div className="w-full max-w-[1300px] flex flex-col gap-12">
 
         {/* Header Section */}

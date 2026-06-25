@@ -47,7 +47,7 @@ export default function Testimonials() {
   }, []);
 
   return (
-    <section className="w-full py-24 bg-[#fafafa] flex flex-col items-center font-jakarta overflow-hidden">
+    <section className="w-full py-24 bg-[#ffffff] -mt-24 flex flex-col items-center font-jakarta overflow-hidden">
       {/* Heading Section */}
       <div className="text-center max-w-2xl mb-10">
         <h2 className="text-4xl md:text-5xl lg:text-[56px] text-zinc-900 leading-[1.1] font-medium">

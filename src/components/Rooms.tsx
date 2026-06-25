@@ -6,7 +6,7 @@ import { Check, ArrowRight, Star, Wind } from 'lucide-react';
 
 export default function Rooms() {
   return (
-    <section className="w-full bg-[#f8f9fa] py-24 px-4 md:px-12 flex flex-col items-center font-jakarta">
+    <section className="w-full bg-[#f8f9fa] py-16 md:py-24 px-4 md:px-12 flex flex-col items-center font-jakarta">
       <div className="w-full max-w-7xl flex flex-col gap-24">
 
         {/* Room 1: Suite Room */}

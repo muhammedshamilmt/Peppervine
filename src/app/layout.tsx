@@ -31,7 +31,7 @@ const brigold = localFont({
 
 export const metadata: Metadata = {
   title: "Peppervine",
-  description: "Peppervine Web Application",
+  description: "Welcome to The Peppervine",
 };
 
 import Navbar from "@/components/Navbar";

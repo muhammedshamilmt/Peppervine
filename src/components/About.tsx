@@ -36,10 +36,10 @@ export default function About() {
   };
 
   return (
-    <section className="w-full bg-white text-zinc-900 py-32 px-4 md:px-12  md:mt-0 flex flex-col items-center justify-center relative h-[80vh] font-jakarta">
+    <section className="w-full bg-white text-zinc-900 py-32 px-4 md:px-12 -mt-24  md:mt-0 flex flex-col items-center justify-center  relative h-[80vh] font-jakarta">
 
       {/* Top Header */}
-      <div className="w-full max-w-7xl flex justify-between items-center mb-24 relative z-10">
+      <div className="w-full max-w-7xl flex justify-between items-center mb-16 relative z-10">
         <motion.div
           initial={{ opacity: 0, x: -20 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -78,7 +78,7 @@ export default function About() {
         initial="hidden"
         whileInView="visible"
         viewport={{ once: true, margin: "-100px" }}
-        className="text-center text-4xl md:text-5xl lg:text-[3rem] leading-[1.2] font-medium tracking-tight relative z-10 mx-auto"
+        className="text-center text-2xl md:text-5xl lg:text-[3rem] leading-[1.2] font-medium tracking-tight relative z-10 mx-auto"
       >
         <motion.span variants={itemVariants} className="inline-block mr-2">We provide exceptional stacation</motion.span>
 
