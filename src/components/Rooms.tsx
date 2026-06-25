@@ -38,7 +38,7 @@ export default function Rooms() {
               </div>
             </div>
 
-            <button className="bg-zinc-900 text-white rounded-xl px-6 py-4 w-fit font-bold flex items-center gap-3 mt-4 hover:bg-zinc-800 transition-colors shadow-lg">
+            <button className="bg-primary text-white rounded-xl px-6 py-4 w-fit font-bold flex items-center gap-3 mt-4 hover:bg-zinc-800 transition-colors shadow-lg">
               Book Suite Room <ArrowRight size={18} />
             </button>
           </motion.div>
@@ -152,7 +152,7 @@ export default function Rooms() {
               </div>
             </div>
 
-            <button className="bg-zinc-900 text-white rounded-xl px-6 py-4 w-fit font-bold flex items-center gap-3 mt-4 hover:bg-zinc-800 transition-colors shadow-lg">
+            <button className="bg-primary text-white rounded-xl px-6 py-4 w-fit font-bold flex items-center gap-3 mt-4 hover:bg-zinc-800 transition-colors shadow-lg">
               Book Deluxe Room <ArrowRight size={18} />
             </button>
           </motion.div>

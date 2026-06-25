@@ -97,7 +97,7 @@ export default function Services() {
                   <Icon size={20} strokeWidth={1.5} />
                 </div>
                 <div className="flex flex-col gap-3">
-                  <h3 className="text-xl font-bold text-zinc-900 tracking-tight">{service.title}</h3>
+                  <h3 className="text-xl font-bold text-primary tracking-tight">{service.title}</h3>
                   <p className="text-zinc-500 font-medium leading-relaxed text-sm">
                     {service.desc}
                   </p>

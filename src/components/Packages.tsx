@@ -56,7 +56,7 @@ export default function Packages() {
             viewport={{ once: true }}
           >
             <span className="text-xs font-bold  uppercase text-zinc-500 mb-8 block">OUR PACKAGES</span>
-            <h2 className="text-5xl md:text-6xl lg:text-[4.5rem] font-medium tracking-tight text-zinc-900 leading-[1.05] max-w-md">
+            <h2 className="text-5xl md:text-5xl lg:text-[4rem] font-medium tracking-tight text-zinc-900 leading-[1.05] ">
               Exclusive Thekkady<br />Resort Packages
             </h2>
           </motion.div>

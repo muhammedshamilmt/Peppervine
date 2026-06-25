@@ -80,13 +80,13 @@ export default function About() {
         viewport={{ once: true, margin: "-100px" }}
         className="text-center text-4xl md:text-5xl lg:text-[3rem] leading-[1.2] font-medium tracking-tight relative z-10 mx-auto"
       >
-        <motion.span variants={itemVariants} className="inline-block mr-2">We provide exceptional baseball</motion.span>
+        <motion.span variants={itemVariants} className="inline-block mr-2">We provide exceptional stacation</motion.span>
 
         <motion.span variants={badgeVariants} className="inline-flex items-center justify-center bg-zinc-100 rounded-full w-12 h-12 md:w-14 md:h-14 mx-2 align-middle overflow-hidden shadow-sm border border-zinc-200">
           <Heart className="text-zinc-700" size={24} />
         </motion.span>
 
-        <motion.span variants={itemVariants} className="inline-block ml-2 mr-2">training at</motion.span>
+        <motion.span variants={itemVariants} className="inline-block ml-2 mr-2">experience at</motion.span>
 
         <br className="hidden md:block" />
 
@@ -94,7 +94,7 @@ export default function About() {
 
         <motion.span variants={badgeVariants} className="inline-flex items-center gap-2 bg-primary text-white px-4 py-1 md:px-5 md:py-1.5 rounded-full mx-2 align-middle shadow-md font-medium text-lg md:text-xl rotate-[-4deg]">
           <Users size={18} className="primary" />
-          100+
+          20+
         </motion.span>
 
         <motion.span variants={itemVariants} className="inline-block ml-2 mr-2">locations, catering to players of all skill levels. From</motion.span>
