@@ -36,7 +36,7 @@ export default function About() {
   };
 
   return (
-    <section className="w-full bg-white text-zinc-900 py-32 px-4 md:px-12 -mt-[90px] md:mt-0 flex flex-col items-center justify-center relative h-[80vh] font-jakarta">
+    <section className="w-full bg-white text-zinc-900 py-32 px-4 md:px-12  md:mt-0 flex flex-col items-center justify-center relative h-[80vh] font-jakarta">
 
       {/* Top Header */}
       <div className="w-full max-w-7xl flex justify-between items-center mb-24 relative z-10">

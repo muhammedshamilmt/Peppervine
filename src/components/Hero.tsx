@@ -25,7 +25,7 @@ export default function Hero({ startAnimation = true }: { startAnimation?: boole
   return (
     <div className="w-full px-2 md:px-4  pt-4 pb-2 flex justify-center">
       <div
-        className="relative w-full max-w-[1800px]  md:h-[97vh] min-h-[80vh] bg-zinc-900 rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-2xl"
+        className="relative w-full max-w-[1800px]  md:h-[97vh] min-h-[90vh] bg-zinc-900 rounded-[2rem] md:rounded-[2.5rem] overflow-hidden shadow-2xl"
       >
         {/* Layer 1: Background Image */}
         <div
