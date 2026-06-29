@@ -64,7 +64,7 @@ export default function Hero({ startAnimation = true }: { startAnimation?: boole
 
         {/* Layer 3: Foreground Hero Image */}
         <div
-          className="absolute inset-0 z-20 bg-contain bg-bottom md:mb-[-200px]  bg-no-repeat pointer-events-none"
+          className="absolute inset-0 z-20 bg-contain bg-bottom md:mb-[-300px] lg:mb-[-200px]   bg-no-repeat pointer-events-none"
           style={{ backgroundImage: 'url("/assets/hero/hero.png")' }}
         />
 
